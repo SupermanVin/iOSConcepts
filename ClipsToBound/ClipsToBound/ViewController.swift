@@ -7,7 +7,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        self.View1.clipsToBounds = true
-        self.View2.clipsToBounds = false
+        self.View1.clipsToBounds = false
+        self.View2.clipsToBounds = true
     }
 }
